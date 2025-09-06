@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Arindam Sahoo</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Enthusiastic full-stack developer driven by a passion for creating clean, scalable, and user-friendly web applications. Skilled in modern frontend and backend technologies, I transform concepts into impactful digital experiences.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/arindamsahoo05" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/Arindamsahoo05" target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/arindamsahoo05/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/arindamsahoo/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#about" class="btn">More About Me</a>
+        </div>
+        <div class="home-img">
+            <img src="profile-image.png" alt="Profile Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile-image.png" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer!</h3>
+            <p>I am passionate about software development and always eager to learn new technologies. When I am not coding, you can find me listening to my favorite songs, it's my ultimate stress buster. 
+I believe in the power of networking and connecting with like-minded individuals. I am always open to new opportunities and challenges that can help me grow both personally and professionally. 
+My goal is to become a successful software developer and make a positive impact on the world through technology. If you share the same vision, let's connect and collaborate! Thanks for visiting!.</p>
+            <a href="#" class="btn">More About Me</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>UI/UX Design</h3>
+                <p>Crafting intuitive and beautiful user interfaces that provide a seamless user experience, from wireframes to final design.</p>
+                <button class="btn learn-more-btn" data-modal-target="#modal-uiux">Learn More</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Web Design</h3>
+                <p>Building responsive, high-performance websites with a focus on clean code, modern design, and accessibility.</p>
+                <button class="btn learn-more-btn" data-modal-target="#modal-web">Learn More</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>App Design</h3>
+                <p>Designing and developing mobile applications for both iOS and Android, ensuring a consistent and engaging user journey.</p>
+                <button class="btn learn-more-btn" data-modal-target="#modal-app">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal-uiux">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <i class='modal-icon bx bx-code-alt'></i>
+            <h2>UI/UX Design</h2>
+            <p>My approach to UI/UX design is centered around the user. I begin by conducting thorough research to understand the target audience and their needs. This involves creating user personas, journey maps, and wireframes to outline the core functionality and flow of the application.</p>
+            <p>From there, I create high-fidelity mockups and interactive prototypes to visualize the final product. I focus on creating clean, modern, and aesthetically pleasing designs that are not only beautiful but also highly functional and accessible to all users. Usability testing is a key part of my process to ensure the final design is intuitive and effective.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-web">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <i class='modal-icon bx bxs-paint'></i>
+            <h2>Web Design</h2>
+            <p>I specialize in building custom websites from the ground up using modern technologies like HTML5, CSS3, and JavaScript. My focus is on creating responsive websites that provide an optimal viewing experience across a wide range of devices, from desktop computers to mobile phones.</p>
+            <p>Performance and SEO are top priorities in my development process. I write clean, semantic code and optimize assets to ensure fast load times and improved search engine rankings. Whether you need a simple landing page, a personal blog, or a complex e-commerce platform, I can deliver a high-quality, scalable solution.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-app">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <i class='modal-icon bx bx-mobile-alt'></i>
+            <h2>App Design</h2>
+            <p>I design mobile applications that are both engaging and easy to use. The process starts with a clear strategy, defining the app's goals and target audience. I then move to wireframing and prototyping to map out the user flow and screen layouts, ensuring every interaction feels natural.</p>
+            <p>My designs focus on platform-specific guidelines for both iOS and Android to create a familiar user experience. I pay close attention to detail, from the color palette and typography to icon design, to ensure the final app is visually stunning and aligns perfectly with your brand identity.</p>
+        </div>
+    </div>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Technical Skills</h3>
+                <div class="skills-box technical">
+                    <div class="skill-item"><i class="devicon-c-plain"></i><span>C</span></div>
+                    <div class="skill-item"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+                    <div class="skill-item"><i class="devicon-java-plain-wordmark"></i><span>Java</span></div>
+                    <div class="skill-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                    <div class="skill-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+                    <div class="skill-item"><i class="devicon-nodejs-plain-wordmark"></i><span>Node.js</span></div>
+                    <div class="skill-item"><i class="devicon-tailwindcss-original-wordmark"></i><span>Tailwind CSS</span></div>
+                    <div class="skill-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+                    <div class="skill-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box professional">
+                    <div class="radial-bar" data-percent="90">
+                        <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+                    <div class="radial-bar" data-percent="65">
+                        <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">65%</div>
+                        <div class="text">Communication</div>
+                    </div>
+                    <div class="radial-bar" data-percent="75">
+                         <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">75%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+                    <div class="radial-bar" data-percent="85">
+                         <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">Teamwork</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology - Budge Budge Institute of Technology</h3>
+                        <p>Currently pursuing a degree in Computer Science and Engineering, focusing on software development, algorithms, and data structures.</p>
+                        <span class="date">2023 - Present</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Higher Secondary School</h3>
+                        <p>Graduated from Nandigram B.M.T. Sikshaniketan with a specialization in the science stream, focusing on Physics, Chemistry, and Mathematics.</p>
+                        <span class="date">2021 - 2023</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Secondary School</h3>
+                        <p>Completed my secondary education at Nandigram B.M.T. Sikshaniketan, where I developed a strong foundation in core academic subjects and extracurricular activities.</p>
+                        <span class="date">2015 - 2021</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Primary School</h3>
+                        <p>Built my foundational knowledge and curiosity for learning at Manikpur Special Primary School.</p>
+                        <span class="date">Until 2014</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <h2 class="heading">My <span>Certificates</span></h2>
+        <div class="certificates-container">
+
+            <div class="certificate-box">
+                <i class='bx bxs-certification'></i>
+                <h3>English language for competitive exams</h3>
+                <p>Issued by NPTEL</p>
+                <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24HS73S95680001030411459" target="_blank" rel="noopener noreferrer" class="btn">View Certificate</a>
+            </div>
+
+            <div class="certificate-box">
+                <i class='bx bxs-certification'></i>
+                <h3>Technical english for engineers</h3>
+                <p>Issued by NPTEL</p>
+                <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23HS115S53680000120104246" target="_blank" rel="noopener noreferrer" class="btn">View Certificate</a>
+            </div>
+
+            <div class="certificate-box">
+                <i class='bx bxs-certification'></i>
+                <h3>Introduction to Internet of Things</h3>
+                <p>Issued by NPTEL</p>
+                 <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS115S76740000203936073" target="_blank" rel="noopener noreferrer" class="btn">View Certificate</a>
+            </div>
+            
+            <div class="certificate-box">
+                <i class='bx bxs-certification'></i>
+                <h3>Problem Solving Through Programming In C</h3>
+                <p>Issued by NPTEL</p>
+                 <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS56S64650010404204207" target="_blank" rel="noopener noreferrer" class="btn">View Certificate</a>
+            </div>
+            <div class="certificate-box">
+                <i class='bx bxs-certification'></i>
+                <h3>Applied Ethical Hacking and Rules of Engagement</h3>
+                <p>Issued by Udemy</p>
+                 <a href="http://ude.my/UC-7788eece-ab6f-40e9-93dc-82c109aa02bc" target="_blank" rel="noopener noreferrer" class="btn">View Certificate</a>
+            </div>
+            <div class="certificate-box">
+                <i class='bx bxs-certification'></i>
+                <h3>Computer Engineering Mastery: From Beginner to Expert!</h3>
+                <p>Issued by Udemy</p>
+                 <a href="http://ude.my/UC-1ed19b22-2cc5-418e-b521-8aa4db51b545" target="_blank" rel="noopener noreferrer" class="btn">View Certificate</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <div class="project-placeholder">
+                    <i class='bx bx-code-block'></i>
+                </div>
+                <div class="project-layer">
+                    <h4>Project 1</h4>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                 <div class="project-placeholder">
+                    <i class='bx bx-code-block'></i>
+                </div>
+                 <div class="project-layer">
+                    <h4>Project 2</h4>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                 <div class="project-placeholder">
+                    <i class='bx bx-code-block'></i>
+                </div>
+                 <div class="project-layer">
+                    <h4>Project 3</h4>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-placeholder">
+                    <i class='bx bx-code-block'></i>
+                </div>
+                <div class="project-layer">
+                    <h4>Project 4</h4>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-text">
+                <h4>Let's Work Together</h4>
+                <p>Have a project in mind or just want to connect? Feel free to send me a message. I'm always open to discussing new ideas and opportunities.</p>
+                <div class="contact-list">
+                    <li><i class='bx bxs-send'></i> arindamsahoo2005@gmail.com</li>
+                    <li><i class='bx bxs-phone'></i> +91 8967249798</li>
+                </div>
+                 <div class="social-media">
+                    <a href="https://www.facebook.com/arindamsahoo05" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://x.com/Arindamsahoo05" target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/arindamsahoo05/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.linkedin.com/in/arindamsahoo/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject">
+                    <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 with &hearts; by Arindam | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
